@@ -1,0 +1,135 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  max-height: 100%;
+  line-height: 1.4;
+}
+.main-icon {
+  height: 2rem;
+  width: 5.125rem;
+}
+.top-li-1 {
+  margin-bottom: -9px;
+}
+.top-li-1:hover {
+  border-bottom: 3px solid #ffff;
+}
+.section-main-head {
+  margin-top: 10vh;
+  margin-left: 10vh;
+}
+.go-ladder-img {
+  bottom: 0;
+  height: 15rem;
+  max-width: 8rem;
+  object-fit: cover;
+  object-position: 100% 0;
+  right: 0;
+  width: 100%;
+}
+@media (max-width: 530px) {
+  .go-ladder-img {
+    margin-top: 10rem;
+    margin-left: 5rem;
+    height: 20rem;
+  }
+}
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+p a {
+  font-size: 0.8125rem;
+}
+
+/* to remove outerborder of toggle button */
+.start-btn {
+  position: relative;
+  width: 30vh;
+  height: 9vh;
+  margin-left: 8.5vh;
+}
+/* @media (max-width: 745px) {
+  .start-btn {
+    font-size: 6vw;
+  }
+} */
+.download-btn {
+  width: 30vh;
+  height: 9vh;
+  margin-left: 3vh;
+}
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+.sec-head-h {
+  font-size: 500;
+}
+@media (max-width: 988px) {
+  .sec-head-h {
+    font-size: 4vh;
+    font-weight: 500;
+  }
+}
+/* media query for card width */
+@media (max-width: 960px) {
+  .add-card {
+    width: 15rem;
+  }
+}
+.carousel-custm {
+  height: 18rem;
+  align-items: center;
+}
+.main-col1-lnk {
+  text-decoration: none;
+}
+.main-col1-lnk:hover {
+  text-decoration: underline;
+}
+.GettingStartedGo-resourceItemTitle {
+  text-decoration: none;
+  color: #8b8a8b;
+}
+.GettingStartedGo-resourceItemTitle:hover {
+  color: #8b8a8b;
+  cursor: pointer;
+}
+.vertical {
+  border-left: 1px solid rgb(88, 86, 86);
+  height: 250px;
+  position: absolute;
+  left: 37%;
+}
+/* media query for bottom list */
+@media (max-width: 960px) {
+  .add-card {
+    width: 15rem;
+  }
+}
+@media (max-width: 1200px) {
+  .vertical {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .lst-colmn-1 {
+    margin-top: 4rem;
+  }
+}
+@media (max-width: 1200px) {
+  .lst-colmn-2 {
+    margin-top: 4rem;
+  }
+}
+
+.foot-li{
+  margin-top: 1rem;
+}
+.footer-line{
+  color: white;
+  width: 80rem;
+  margin-left: 2rem;
+}
